@@ -1,0 +1,149 @@
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.frame-one {
+  display: flex;
+  flex-direction: ;
+  background-color: tomato;
+  padding: 5px;
+  width: 468px;
+  height: 160px;
+  align-items: flex-end;
+  
+
+}
+.box-one {
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin: 10px
+}
+.frame-two {
+  display: flex;
+  flex-direction: ;
+  background-color: rgb(44, 39, 39);
+  padding: 5px;
+  width: 468px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.box-two {
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 80px;
+  height: 110px;
+  border-radius: 30px;
+  margin: 10px
+}
+.frame-three {
+  display: flex;
+  flex-direction: ;
+  background-color: rgb(219, 36, 36);
+  padding: 5px;
+  width: 468px;
+  height: 160px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.box-three {
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin: 10px
+}
+.frame-four {
+  display: flex;
+  flex-direction: ;
+  background-color: rgb(65, 54, 54);
+  padding: 5px;
+  width: 468px;
+  height: 160px;
+  justify-content: space-between;
+  align-self:  flex-end;
+  
+}
+.box-four {
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin: 10px
+}
+.bxf-third {
+  align-self: flex-end;
+}
+.frame-five {
+  display: flex;
+  flex-direction: ;
+  background-color: rgb(219, 36, 36);
+  padding: 5px;
+  width: 468px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+.box-five {
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 80px;
+  height: 110px;
+  border-radius: 15px;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+.bxfve-second {
+  height: 55px;
+  background-color: violet;
+}
+.frame-six {
+  display: flex;
+  flex-direction: ;
+  background-color: rgb(29, 26, 26);
+  padding: 5px;
+  width: 468px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+.box-six {
+  display: flex;
+  background-color: yellow;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin: 10px
+}
+.six-middle {
+  flex-grow: 2;
+}
